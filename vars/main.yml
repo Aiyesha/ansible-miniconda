@@ -1,0 +1,13 @@
+---
+# vars file for miniconda
+miniconda_installer:
+  url: 'http://repo.continuum.io/miniconda'
+  file: 'Miniconda3-3.0.0-Linux-x86_64.sh'
+
+miniconda_path: '~/.miniconda'
+
+miniconda_environments: []
+# conda_venvs:
+#   - name: my_virtual_env
+#     python_version: 2.7
+#     pkgs: 'pip pyyaml numpy'
